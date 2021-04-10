@@ -1,7 +1,9 @@
-main {
+.gallery {
     width: 60vw;
     display: grid;
-    justify-content: center;
     grid-gap: 30px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+img {
+    margin: 0 auto;
 }

@@ -341,7 +341,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-body, main {
+.gallery {
   text-align: center;
   margin: 0 auto;
 }
@@ -359,12 +359,15 @@ input {
   border-radius: 4px;
 }
 
-main {
+.gallery {
   width: 60vw;
   display: grid;
-  justify-content: center;
   grid-gap: 30px;
   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+img {
+  margin: 0 auto;
 }
 
 /*# sourceMappingURL=style.css.map */
